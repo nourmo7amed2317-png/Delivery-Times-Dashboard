@@ -53,30 +53,18 @@ Technologies & Libraries:
 
 How to Run Locally
 1. Copy or download this repository.
-2. Open the project in RStudio.
-3. Install the required packages:
+2. Download the dataset "Food_Delivery_Times" from the same respository
+3. Open the project in RStudio.
+4. Install the required packages:
 install.packages(c(
   "shiny", "shinyWidgets", "shinythemes",
   "bslib", "fresh", "ggplot2", "DT",
   "readxl", "arules", "arulesViz", "factoextra"
 ))
-4. Run app.R
-5. Upload your delivery dataset using the file upload option in the dashboard.
-6. Explore the data, visualizations, clusters, and association rules.
+5. Run app.R
+6. Upload delivery dataset using the file upload option in the dashboard.
+7. Explore the data, visualizations, clusters, and association rules.
 
- Dataset:
-The application accepts CSV and Excel files containing delivery-related information, including:
-
-- Delivery time
-- Preparation time
-- Distance
-- Weather conditions
-- Traffic level
-- Time of day
-- Vehicle type
-- Courier experience
-
-The uploaded dataset should contain the columns required by the application.
 The dashboard will be empty before uploading the dataset
 
  Dashboard Design: The dashboard uses a lavender-themed interface with interactive controls and multiple tabs to make exploring delivery data easier
